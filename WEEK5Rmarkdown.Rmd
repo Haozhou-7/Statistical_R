@@ -1,0 +1,32 @@
+---
+title: "My title"
+author: "Haozhou Xie"
+date: "23/11/2020"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+Some plain text.
+
+# Section 1
+
+$$y = \alpha + \beta x $$
+```{r}
+x <- 2
+3 * x
+```
+
+More text
+
+```{r}
+y <- 1:10
+sum(y)
+```
+
+A plot
+
+```{r}
+plot(y, y^2)
+```
+
